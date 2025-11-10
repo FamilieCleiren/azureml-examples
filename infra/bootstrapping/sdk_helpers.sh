@@ -6,7 +6,10 @@ set -eu
 ####################
 # SET VARIABLES FOR CURRENT FILE & DIR
 ####################
-
+RESOURCE_GROUP_NAME="Fc-AI"
+WORKSPACE_NAME="demo-mlops"
+LOCATION="Poland Central"
+SUBSCRIPTION_ID="d77db302-e8eb-4c60-a8f6-c84902905abc"
 # The filename of this script for help messages
 SCRIPT_PATH="${BASH_SOURCE[0]:-$0}"
 SCRIPT_DIR="$( cd "$( dirname "${SCRIPT_PATH}" )" && pwd )"
